@@ -6,6 +6,8 @@
 
 This package includes an ONNX model, standalone inference code, and a dependency list. PyTorch, timm, and model architecture source code are not required.
 
+**Model download:** The ONNX model file is available in this repository's **GitHub Releases**. Download `toothmap_fdi.onnx` from the release assets and place it in the same directory as `inference.py`, or specify its location with `--model`.
+
 ### License
 
 Copyright (c) 2026 Shaohua Tang. The original ONNX model (including embedded parameters), inference code, and project documentation are offered under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). See [LICENSE.txt](LICENSE.txt) for the full terms, [license](license) for the scope notice, and [NOTICE.txt](NOTICE.txt) for copyright and redistribution notices.
@@ -58,6 +60,8 @@ The package does not include training configurations, training code, training da
 ## 中文
 
 本包提供 ONNX 模型、独立推理代码及依赖。无需 PyTorch、timm 或网络结构源码。
+
+**模型下载：** ONNX 模型文件位于本仓库的 **GitHub Releases** 页面。请从 Release 附件中下载 `toothmap_fdi.onnx`，放到 `inference.py` 同目录，也可通过 `--model` 指定模型路径。
 
 ### 许可
 
