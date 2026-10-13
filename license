@@ -1,0 +1,52 @@
+# ToothmapNet — License Information
+
+Copyright (c) 2026 Shaohua Tang
+
+## Applicable license and scope
+
+The original ToothmapNet materials in this distribution are offered under the
+PolyForm Noncommercial License 1.0.0. The complete, unmodified license is in
+LICENSE.txt and is available at:
+https://polyformproject.org/licenses/noncommercial/1.0.0
+
+For this distribution, the licensed software includes the ONNX model artifact
+and its embedded model parameters (toothmap_fdi.onnx), the accompanying original
+inference code (inference.py), and the original project documentation.
+This notice applies only to rights held by the copyright holder; third-party
+materials and dependencies retain their own licenses.
+
+## Permitted uses and separate commercial licensing
+
+Noncommercial research, experimentation, education, and other uses permitted by
+LICENSE.txt are allowed subject to its terms. The license itself defines
+permitted purposes, including its provisions for noncommercial organizations.
+
+Commercial uses not permitted by LICENSE.txt require a separate written license
+from the copyright holder. For commercial licensing inquiries, contact
+Shaohua Tang through the GitHub repository from which this project was obtained.
+This distribution does not include a separate commercial license.
+
+## Redistribution and notices
+
+When redistributing any part of the licensed materials, provide the license
+terms or their official URL and preserve the Required Notice lines in
+NOTICE.txt, as required by LICENSE.txt. Include this scope notice so recipients
+know that the model artifact and original inference code are covered.
+
+## Training-related clarification
+
+This is an inference distribution: training data, annotations, training scripts,
+and training configurations are not supplied. Their absence does not create an
+additional prohibition on modification, fine-tuning, or other activities that
+are permitted by LICENSE.txt. This notice does not add a no-training restriction.
+
+## Research status and third-party dependencies
+
+This research implementation has not been established as a clinically validated
+medical device. The warranty and liability provisions are those in LICENSE.txt.
+
+ONNX Runtime, NumPy, OpenCV, and other third-party components remain subject to
+their respective licenses. This project notice does not replace those licenses.
+
+This file explains the distribution's scope and licensing intent. It does not
+modify the PolyForm license; LICENSE.txt governs in the event of a conflict.

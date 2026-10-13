@@ -1,0 +1,10 @@
+Required Notice: Copyright (c) 2026 Shaohua Tang
+
+Project: ToothmapNet
+Covered original materials: toothmap_fdi.onnx (including embedded model
+parameters), inference.py, and original project documentation.
+License: PolyForm Noncommercial License 1.0.0
+License text: LICENSE.txt
+Official URL: https://polyformproject.org/licenses/noncommercial/1.0.0
+
+Third-party dependencies retain their own licenses.
